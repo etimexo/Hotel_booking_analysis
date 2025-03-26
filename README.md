@@ -94,7 +94,7 @@ Implementing targeted marketing strategies and customer-focused policies will ul
 
 ___
 
-##🔮 Future Improvements
+## 🔮 Future Improvements
 Incorporate machine learning to predict booking cancellations.
 
 ___
