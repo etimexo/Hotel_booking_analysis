@@ -1,6 +1,5 @@
-![Image](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pexels-pixabay-258154%20(1).jpg)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pexels-pixabay-258154%20(1).jpg)
 # Hotel_booking_analysis
-
 ## 📌 Project Overview
 
 This project analyzes hotel booking data to uncover insights related to booking requests, pricing, room types, and customer preferences. The goal is to identify patterns that can help optimize pricing strategies and improve customer experience.
