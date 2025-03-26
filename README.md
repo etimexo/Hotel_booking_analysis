@@ -1,4 +1,6 @@
 ![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pexels-pixabay-258154%20(1).jpg)
+![pexels-pixabay-258154 (1)](https://github.com/user-attachments/assets/cd15db27-d71a-435b-bd5d-e4158bd7ae65)
+
 # Hotel_booking_analysis
 ## 📌 Project Overview
 
