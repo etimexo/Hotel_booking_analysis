@@ -14,7 +14,7 @@ The dataset contains information about hotel bookings, including:
 3. Monthly booking trends
 4. Special requests and their impact on pricing
 Image of the raw data:
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/rawData.png)
+![image](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/rawData.png)
 ___
 
 ## 🛠 Data Processing
