@@ -1,8 +1,7 @@
+![Employee data](/repository/assets/employee.png?raw=true "Employee Data title")
 # Hotel_booking_analysis
 
-Hotel Booking Data Analysis
-
-📌 Project Overview
+## 📌 Project Overview
 
 This project analyzes hotel booking data to uncover insights related to booking requests, pricing, room types, and customer preferences. The goal is to identify patterns that can help optimize pricing strategies and improve customer experience.
 
