@@ -1,6 +1,6 @@
+# HOTEL BOOKING ANALYSIS
 ![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/hotel1.png)
 
-# Hotel_booking_analysis
 ## 📌 Project Overview
 
 This project analyzes hotel booking data to uncover insights related to booking requests, pricing, room types, and customer preferences. The goal is to identify patterns that can help optimize pricing strategies and improve customer experience.
@@ -15,7 +15,7 @@ The dataset contains information about hotel bookings, including:
 4. Special requests and their impact on pricing
 Image of the raw data:
 
-![image](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/rawData.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/rawData.png)
 ___
 
 ## 🛠 Data Processing
@@ -23,7 +23,7 @@ ___
 Data Cleaning: There wasn't much to do here as the dataset was from Kaggle. But what I did do was to create another column named "arrival_month_abc".
 This was because the original months in the data were numeric and I needed their alphabetic representations for visualization.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/monthFormula.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/monthFormula.png)
 
 Feature Engineering: Created additional features like month-wise analysis.
 
@@ -38,13 +38,13 @@ Below are key insights from the analysis:
 
 This visualization shows the total number of bookings by request type.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/bookingStatus.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/bookingStatus.png)
 
 2️⃣ Monthly Booking Trends
 
 Displays how bookings vary across different months.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/month.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/month.png)
 
 Formula used for month extraction: *Include *month_formula.png
 
@@ -52,17 +52,17 @@ Formula used for month extraction: *Include *month_formula.png
 
 Price per Room Type: Understanding how different room types are priced.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pricePerRoomType.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/pricePerRoomType.png)
 
 Price based on Special Requests: Analyzing how special requests affect pricing.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pricePerSpecial.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/pricePerSpecial.png)
 
 4️⃣ Room Type Preferences
 
 Examines which room types are booked the most.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/roomType.png)
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/roomType.png)
 
 ___
 ## 📝 Key Findings & Insights
