@@ -1,4 +1,4 @@
-![Employee data](/repository/assets/employee.png?raw=true "Employee Data title")
+![Image](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pexels-pixabay-258154%20(1).jpg)
 # Hotel_booking_analysis
 
 ## 📌 Project Overview
