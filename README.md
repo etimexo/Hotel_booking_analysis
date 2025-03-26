@@ -1,5 +1,4 @@
 ![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/pexels-pixabay-258154%20(1).jpg)
-![pexels-pixabay-258154 (1)](https://github.com/user-attachments/assets/cd15db27-d71a-435b-bd5d-e4158bd7ae65)
 
 # Hotel_booking_analysis
 ## 📌 Project Overview
@@ -35,15 +34,13 @@ Below are key insights from the analysis:
 ### 1️⃣ Booking Requests Trend
 
 This visualization shows the total number of bookings by request type.
-
-
-📌 Include booking_by_requests.png here.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/booking_status.png)
 
 2️⃣ Monthly Booking Trends
 
 Displays how bookings vary across different months.
 
-📌 Include month.png here.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/month.png)
 
 Formula used for month extraction: *Include *month_formula.png
 
@@ -51,19 +48,20 @@ Formula used for month extraction: *Include *month_formula.png
 
 Price per Room Type: Understanding how different room types are priced.
 
-📌 Include price_per_room_type.png here.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/price_per_room_type.png)
 
 Price based on Special Requests: Analyzing how special requests affect pricing.
 
-📌 Include price_per_special_requests.png here.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/price_per_special_requests.png)
 
 4️⃣ Room Type Preferences
 
 Examines which room types are booked the most.
 
-📌 Include room_type.png here.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/room_type.png)
 
-📝 Key Findings & Insights
+___
+## 📝 Key Findings & Insights
 
 Room pricing varies significantly based on type and special requests.
 
@@ -71,13 +69,6 @@ Certain months have peak booking seasons.
 
 Special requests influence pricing and booking trends.
 
-📂 Repository Structure
-
-📂 Hotel-Booking-Analysis
-│── 📁 data/              # Raw & processed datasets
-│── 📁 visuals/           # Charts and graphs
-│── 📄 analysis.ipynb     # Jupyter Notebook with code & insights
-│── 📄 README.md         # Project documentation
 
 🔮 Future Improvements
 
