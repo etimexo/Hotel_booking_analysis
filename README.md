@@ -7,30 +7,33 @@ This project analyzes hotel booking data to uncover insights related to booking 
 📊 Dataset Description
 
 The dataset contains information about hotel bookings, including:
+1. Booking requests and special requests
+2. Room types and their prices
+3. Monthly booking trends
+4. Special requests and their impact on pricing
+Image of the raw data:
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/raw_data.png)
+___
 
-Booking requests and special requests
+##🛠 Data Processing
 
-Room types and their prices
-
-Monthly booking trends
-
-Special requests and their impact on pricing
-
-🛠 Data Processing
-
-Data Cleaning: Handled missing values, removed duplicates, and formatted data types.
+Data Cleaning: There wasn't much to do here as the dataset was from Kaggle. But what I did do was to create another column named "arrival_month_abc".
+This was because the original months in the data were numeric and I needed their alphabetic representations for visualization.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/month_formula.png)
 
 Feature Engineering: Created additional features like month-wise analysis.
 
 Visualization: Used charts and graphs to explore trends.
+___
 
-📈 Exploratory Data Analysis (EDA)
+## 📈 Exploratory Data Analysis (EDA)
 
 Below are key insights from the analysis:
 
-1️⃣ Booking Requests Trend
+### 1️⃣ Booking Requests Trend
 
 This visualization shows the total number of bookings by request type.
+
 
 📌 Include booking_by_requests.png here.
 
