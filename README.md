@@ -14,6 +14,7 @@ The dataset contains information about hotel bookings, including:
 3. Monthly booking trends
 4. Special requests and their impact on pricing
 Image of the raw data:
+
 ![image](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/rawData.png)
 ___
 
@@ -21,6 +22,7 @@ ___
 
 Data Cleaning: There wasn't much to do here as the dataset was from Kaggle. But what I did do was to create another column named "arrival_month_abc".
 This was because the original months in the data were numeric and I needed their alphabetic representations for visualization.
+
 ![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/monthFormula.png)
 
 Feature Engineering: Created additional features like month-wise analysis.
@@ -35,6 +37,7 @@ Below are key insights from the analysis:
 ### 1️⃣ Booking Requests Trend
 
 This visualization shows the total number of bookings by request type.
+
 ![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/visualizations/bookingStatus.png)
 
 2️⃣ Monthly Booking Trends
@@ -68,6 +71,7 @@ Room pricing varies significantly based on type and special requests.
 Certain months have peak booking seasons.
 Special requests influence pricing and booking trends.
 Below is the revenue generated on all bookings and the amount not generated due to cancelations:
+
 ![image](https://github.com/user-attachments/assets/43d9f0ca-d359-4c75-820b-a3400f9c4781)
 
 ___
