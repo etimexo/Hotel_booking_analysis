@@ -77,6 +77,15 @@ Below is the revenue generated on all bookings and the amount not generated due 
 ___
 
 #### Slicers were added to the charts to explore relationships between different variables. These slicers include whether a customer is a repeat guest and whether they require a parking space. Both factors were observed to influence the customer's booking status—whether they successfully completed the booking or later canceled.
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboardPrime.png)
+
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard1.png)
+
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard2.png)
+
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard3.png)
+
+![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard4.png)
 
 ___
 
@@ -91,6 +100,32 @@ The analysis showed that the availability of parking space affects booking decis
 ## Optimize Room Pricing Strategy
 The pricing analysis across room types and special requests suggests that adjusting pricing dynamically based on demand and customer preferences could increase revenue. Implementing data-driven pricing strategies will help maximize occupancy rates.
 
+___
+
+## Model Development Process
+I went further to build a classification model to predict whether a customer would cancel their hotel booking using historical booking data. The target variable used for prediction was booking_status_Not_Canceled (1 = Not Canceled, 0 = Canceled).
+
+### Steps Taken:
+- Applied one-hot encoding to categorical features (type_of_meal_plan, room_type_reserved, market_segment_type, and booking_status).
+- Split the dataset into training (80%) and testing (20%) sets.
+-Model Selection & Training:
+Evaluated three different models: Logistic Regression, Decision Tree Classifier and Random Forest Classifier
+- Used default hyperparameters for initial training.
+
+### Model Evaluation:
+Random Forest performed best, achieving 90.5% accuracy, followed by Decision Tree (86.9%) and Logistic Regression (79.5%).
+Performance metrics such as precision, recall, and F1-score were analyzed to compare results with appropriate visualizations in the [Jupyter notebook](https://github.com/etimexo/Hotel_booking_analysis/blob/main/hotel_booking.ipynb)
+
+Insights from Results:
+- Booking behavior impacts cancellations: Features like lead time, previous cancellations, and special requests play a major role in predicting cancellations.
+- Market segment influences cancellation trends: Corporate and online bookings exhibit different cancellation behaviors.
+- Random Forest is the most effective model: It captures complex patterns in customer behavior, making it the best choice for prediction.
+- Decision Tree risks overfitting: It learns the training data well but may not generalize as effectively.
+- Logistic Regression struggles with complex relationships: Since cancellations are influenced by multiple factors in a non-linear way, this model has lower performance.
+
+You can view the whole process [here](https://github.com/etimexo/Hotel_booking_analysis/blob/main/hotel_booking.ipynb)
+___
+
 # Conclusion
 This analysis provided valuable insights into customer booking behaviors, pricing trends, and factors influencing cancellations. Key findings include the impact of repeat guests and parking space availability on booking status, as well as variations in room pricing and special requests. By leveraging these insights, hotels can optimize pricing strategies, improve customer experience, and reduce booking cancellations.
 
@@ -98,10 +133,6 @@ Implementing targeted marketing strategies and customer-focused policies will ul
 
 ___
 
-## 🔮 Future Improvements
-Incorporate machine learning to predict booking cancellations.
-
-___
 # 📌 Author
 
 ### Elijah Obisesan Timilehin
