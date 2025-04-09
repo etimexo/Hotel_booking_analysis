@@ -44,7 +44,8 @@ This visualization shows the total number of bookings by request type.
 
 Displays how bookings vary across different months.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/month.png)
+![Screenshot 2025-04-09 104549](https://github.com/user-attachments/assets/d3575233-6d8a-4ad9-8c82-89cf6c447ddd)
+
 
 Formula used for month extraction: *Include *month_formula.png
 
@@ -62,7 +63,8 @@ Price based on Special Requests: Analyzing how special requests affect pricing.
 
 Examines which room types are booked the most.
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/roomType.png)
+![Screenshot 2025-04-09 104655](https://github.com/user-attachments/assets/1f196ca1-dba2-4a5c-8bb7-7cf8b2d1b06e)
+
 
 ___
 ## 📝 Key Findings & Insights
@@ -77,27 +79,25 @@ Below is the revenue generated on all bookings and the amount not generated due 
 ___
 
 #### Slicers were added to the charts to explore relationships between different variables. These slicers include whether a customer is a repeat guest and whether they require a parking space. Both factors were observed to influence the customer's booking status—whether they successfully completed the booking or later canceled.
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboardPrime.png)
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard1.png)
+![Screenshot 2025-04-09 105418](https://github.com/user-attachments/assets/7b4e7181-410c-4eb1-9246-79640c8a08a3)
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard2.png)
+![image_alt]![Screenshot 2025-04-09 105418](https://github.com/user-attachments/assets/ea2db9cd-33bc-483a-8018-2cb351478961)
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard3.png)
+![Screenshot 2025-04-09 105532](https://github.com/user-attachments/assets/fd757c74-bbdc-4334-a406-1b06e34bd5d1)
 
-![image_alt](https://github.com/etimexo/Hotel_booking_analysis/blob/main/images/dashboard4.png)
 
 ___
 
 # Recommendations
 Based on the insights gained from the analysis, the following recommendations can be made to improve customer retention, optimize pricing strategies, and reduce cancellations:
-## Enhance Loyalty Programs for Repeat Guests
+## 1. Enhance Loyalty Programs for Repeat Guests
 Since repeat guests tend to have a significant influence on booking trends, offering targeted discounts or exclusive perks could encourage more frequent stays and increase retention rates.
 
-## Improve Parking Availability
+## 2. Improve Parking Availability
 The analysis showed that the availability of parking space affects booking decisions. Hotels should ensure sufficient parking options or provide alternative solutions (e.g., partnerships with nearby parking lots) to attract customers who require this service.
 
-## Optimize Room Pricing Strategy
+## 3. Optimize Room Pricing Strategy
 The pricing analysis across room types and special requests suggests that adjusting pricing dynamically based on demand and customer preferences could increase revenue. Implementing data-driven pricing strategies will help maximize occupancy rates.
 
 ___
